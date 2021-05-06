@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Farmacia San Francisco",
+    "slug": "fsf",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/images/image.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package" : "com.javiCode.fsf",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAIMWq9bfGbGZE8xlOOfWbDgdtMobQrbyc"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
